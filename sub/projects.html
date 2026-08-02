@@ -1,0 +1,75 @@
+<html data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" /> 
+        <!-- bootstrap lines -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../site.css">
+
+        <title>Projects</title>
+    </head>
+
+    <body>
+        <div class="vstack d-flex gap-2 align-items-center body">
+
+        <div class='hstack gap-4 mb-4 mt-0 content-width' id="page-header">
+            <div id="banner">
+                <img class='headshot rounded-circle' src="../images/headshot.jpg">
+            </div>
+            <nav>
+                <ul class="hstack gap-4 list-unstyled">
+                    <li><a class="nav-item link-light link-underline-opacity-0 link-underline-opacity-75-hover" href='../home.html'>Home</a></li>
+                    <li><a class="nav-item link-light link-underline-opacity-0 link-underline-opacity-75-hover" href='resume.html'>Resum&eacute;</a></li>
+                    <li><a class="nav-item link-light link-underline-opacity-0 link-underline-opacity-75-hover" href='#'>Projects</a></li>
+                    <li><a class="nav-item link-light link-underline-opacity-0 link-underline-opacity-75-hover" href='coursework.html'>Coursework</a></li>
+                    <li><a class="nav-item link-light link-underline-opacity-0 link-underline-opacity-75-hover" href='contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class='content-background rounded-5 content-width flex-inline' id="content-and-footer">
+                <main class="main-content">
+                    <h1>Projects</h1>
+                        <h2>Self-Hosted Credential Vault</h2>
+                            <h3>Description</h3>
+                                <p>A cryptographically secure, self-hosted web-based password management application designed to centralize access across Windows and Android systems. Uses no cloud services. Employs proper techniques according to defense-in-depth, zero-knowledge, and network isolation methodologies.</p>
+                            <h3>Features</h3>
+                                <h4>Zero-Knowledge Cryptography</h4>
+                                    <p>Implements a system of client-server encryption via PHP's OpenSSL implementation of the AES-256-GCM standard. Securely generated IVs and auth tags stored as binary data in MySQL to prevent improper handling or tampering.</p>
+
+                                <h4>Custom-PKI</h4>
+                                    <p>Configured custom X.509 CAs to establish authenticated HTTPS connections between client devices (Desktop/Android Chrome) and server device (Apache HTTPS).</p>
+
+                                <h4>Secure Database Interaction</h4>
+                                    <p>Secured MySQL database interactions by using fine-tuned stored procedures for all commands to prevent injection attacks and limit general attack surface.</p>
+                            
+                            <h3>Technologies and Skills</h3>
+                                <h4>Frontend</h4>
+                                    <p>HTML5, CSS3/Bootstrap, Cross-device Responsive Design</p>
+                                
+                                <h4>Backend</h4>
+                                    <p>PHP (PDO objects, OpenSSL architecture)</p>
+                                
+                                <h4>Database</h4>
+                                    <p>MySQL</p>
+
+                                <h4>Security & Networking</h4>
+                                    <p>TLS/SSL, X.509 PKI, AES-256-GCM Cryptography, Tailscale</p>
+                                                            
+                                <h4>Environments</h4>
+                                    <p>Apache HTTP/S Server</p>
+                </main>
+            
+            </div>
+
+            <footer class="flex footer" style="width:100%;">
+                <h3>Contact me!</h3>
+                <div class='hstack gap-2 mt-0' id='contact-logos'>
+                    <a href="mailto:lewismatthew.cyber@gmail.com" target="_blank" rel="noopener noreferrer"><img class='contact-logo' src="../images/email-envelope.svg"></a>
+                    <a href="https://linkedin.com/in/mattlewisfl" target="_blank" rel="noopener noreferrer"><img class='contact-logo' src="../images/linkedin-logo.png"></a>
+                    <a href="https://github.com/lewismatthewcyber" target="_blank" rel="noopener noreferrer"><img class='contact-logo' src="../images/github-logo-white.svg"></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
