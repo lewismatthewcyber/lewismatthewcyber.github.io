@@ -1,0 +1,77 @@
+.nav-item {
+    font-size: 1.9em;
+}
+
+.contact-logo{
+    width:3.25vw;
+    max-width: 32px;
+    min-width: 20px;
+    height:auto;
+}
+
+.headshot{
+    width:20vw;
+    max-width: 175px;
+    height: auto;
+}
+
+.footer{
+    padding: 2vw 0vw 2vw 0vw;
+    justify-items: start;
+    justify-content: start;
+}
+
+.content-background{
+    background-color: #0c0b0b;
+}
+
+.body{
+    padding: 3vh 2vw 10vh 2vw;
+}
+
+.main-content{
+    padding: 1.5vh 2vw 1.5vh 2vw;
+}
+
+.bust{
+    width: 27vw;
+    height: auto;
+    max-width:400px;
+}
+
+.content-width{
+    width: 100%;
+}
+
+.dashed{
+    list-style-type: '- ';
+}
+
+.classwork{
+    margin: 3vh 0 0vh 0;
+    padding: 1vh 0 1vh 0;
+}
+
+.external-size{
+    font-size: 12px;
+}
+
+.gpa{
+    font-size: 1.2em;
+}
+
+/* body{
+    font-family:'Kanit', "sans-serif"
+}
+
+nav{
+    font-family:"Electrolize", "sans-serif"
+} */
+
+h4{
+    margin-bottom: 0px;
+}
+
+.skills-indent{
+    text-indent: 2.1em;
+}
