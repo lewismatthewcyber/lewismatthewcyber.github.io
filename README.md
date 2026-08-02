@@ -1,2 +1,2 @@
 # lewismatthewcyber.github.io
-My custom-made Portfolio website using HTML, CSS, and JS
+My custom-made Portfolio website using HTML and CSS
